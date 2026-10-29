@@ -1,0 +1,17 @@
+# Large / re-downloadable reference data (source is cited in README)
+*.zip
+
+# Large intermediate outputs (can be regenerated from the raw data)
+outputs/q3_transport_mode/*transport_mode_names*.xlsx
+
+# Office / OneDrive temp files
+~$*
+*.tmp
+desktop.ini
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
